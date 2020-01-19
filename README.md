@@ -1,5 +1,6 @@
 # Gojek Auto Register & Save Token 
-
+  Sudah Tidak Work, dikarenakan masa berlaku kode promo telah habis & tidak bisa digunakan
+  Tunggu Kode promo berikutnya
 # install
 
   $pkg install curl
