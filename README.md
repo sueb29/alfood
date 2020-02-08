@@ -4,17 +4,22 @@
   ## wait till they have new promocode
   
 # install
-
+```
   $pkg install curl
-
+```
+```
   $pkg install php
-
+```
+```
   $pkg install git
-
+```
+```
   $git clone https://github.com/megatruh/malproject
-
+```
 # use 
-
-$cd malproject
-
+```
+$cd alfood
+```
+```
 $php alfood.php
+```
