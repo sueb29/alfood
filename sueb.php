@@ -52,14 +52,14 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                 echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
                 
                 // SANTAI19
-                echo "\e[96m[!] Proses Reedem Voucher 20+10 : WADAWGOJEK \n";
-                $data3 = '{"promo_code":"WADAWGOJEK"}';
+                echo "\e[96m[!] Proses Reedem Voucher 15+10 : COBAGOFOOD090320A \n";
+                $data3 = '{"promo_code":"COBAGOFOOD090320A"}';
                 $claim = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data3, $headers);
                 $claims = json_decode($claim[0]); 
                 if($claims->success == true) 
                         {
                                 // Claim Voucher
-                                $live2 = "wadaw";
+                                $live2 = "GOFOOD";
                                 $fopen2 = fopen($live2, "a+");
                                 $fwrite2 = fwrite($fopen2, "TOKEN => ".$token." \n");
                                 fclose($fopen2);
@@ -72,14 +72,14 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                                     echo "\n";
 
                                     // SANTAI11
-                                        echo "\e[96m[!] Proses Reedem Voucher 20+10 : GOFOODSANTAI19 \n";
-                                        $data4 = '{"promo_code":"GOFOODSANTAI19"}';
+                                        echo "\e[96m[!] Proses Reedem Voucher 15+10 : GOFOODLAGI090320A \n";
+                                        $data4 = '{"promo_code":"GOFOODLAGI090320A"}';
                                         $claim1 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data4, $headers);
                                         $claims1 = json_decode($claim1[0]);
                                         if($claims1->success == true) 
                                                 {
                                                         // Claim Voucher
-                                                        $live3 = "santai19";
+                                                        $live3 = "GOFOODLAGI";
                                                         $fopen3 = fopen($live3, "a+");
                                                         $fwrite3 = fwrite($fopen3, "TOKEN => ".$token." \n");
                                                         fclose($fopen3);
@@ -91,14 +91,14 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                                                             echo "\n";
 
                                                             // SANTAI08
-                                                                echo "\e[96m[!] Proses Redeem Voucher 15+10 : GOFOODSANTAI11 \n";
-                                                                $data5 = '{"promo_code":"GOFOODSANTAI11"}';
+                                                                echo "\e[96m[!] Proses Redeem Voucher 15+10 : COBAGOFOOD090320A \n";
+                                                                $data5 = '{"promo_code":"COBAGOFOOD090320A"}';
                                                                 $claim2 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data5, $headers);
                                                                 $claims2 = json_decode($claim2[0]);
                                                                 if($claims2->success == true) 
                                                                         {
                                                                                 // Claim Voucher
-                                                                                $live4 = "santai11";
+                                                                                $live4 = "GOFOOD";
                                                                                 $fopen4 = fopen($live4, "a+");
                                                                                 $fwrite4 = fwrite($fopen4, "TOKEN => ".$token." \n");
                                                                                 fclose($fopen4);
@@ -110,14 +110,14 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                                                                                     echo "\n";
 
                                                                                     // SANTAI08
-                                                                                        echo "\e[96m[!] Proses Redeem Voucher 10+10 : GOFOODSANTAI08 \n";
-                                                                                        $data6 = '{"promo_code":"GOFOODSANTAI08"}';
+                                                                                        echo "\e[96m[!] Proses Redeem Voucher 15+10 : GOFOODLAGI090320A \n";
+                                                                                        $data6 = '{"promo_code":"GOFOODLAGI090320A"}';
                                                                                         $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
                                                                                         $claims3 = json_decode($claim3[0]);
                                                                                         if($claims3->success == true) 
                                                                                                 {
                                                                                                         // Claim Voucher
-                                                                                                        $live5 = "santai08";
+                                                                                                        $live5 = "GOFOODLAGI";
                                                                                                         $fopen5 = fopen($live5, "a+");
                                                                                                         $fwrite5 = fwrite($fopen5, "TOKEN => ".$token." \n");
                                                                                                         fclose($fopen5);
