@@ -21,5 +21,5 @@
 $cd alfood
 ```
 ```
-$php alfood.php
+$php sueb.php
 ```
